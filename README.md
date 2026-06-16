@@ -389,4 +389,14 @@ AI Developer / Red Teamer
 📍 Bengaluru, Karnataka, India | 🔗 GitHub: @chandutharun
 
 
+---
+
+## ⭐ Show Your Support
+
+If you found this project helpful, please **give it a star!** ⭐
+
+(https://github.com/chandutharun/kcet-ai-prep)
+
+---
+
 🎓 **Happy KCET Preparation!**
