@@ -12,7 +12,7 @@ An offline RAG-based AI assistant for KCET exam preparation using NCERT textbook
 - ✅ **Local LLMs** - Uses llama3.1 and sarvam-1 via Ollama
 
 ## Your PDF Folder Structure
-
+```text
 Your PDFs are organized like this:
 kcet_ai_prep/
 ├── pdfs/
@@ -40,7 +40,7 @@ kcet_ai_prep/
 │ ├── kcet-2024-physics.pdf
 │ └── ...
 
-
+```
 
 **✅ Perfect!** Your structure is already correct - just add PDF files inside each subject folder.
 
