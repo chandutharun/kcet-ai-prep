@@ -381,9 +381,13 @@ streamlit run app.py
 MIT License
 
 ## Author
+
 Tharun K
+
 AI Developer / Red Teamer 
+
 📍 Bengaluru, Karnataka, India
+
 🔗 GitHub: @chandutharun
 
 
