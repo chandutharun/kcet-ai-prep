@@ -279,13 +279,13 @@ kcet_ai_prep/
 │ └── config.py # Configuration
 ├── pdfs/ # 📁 PDFs folder
 │ └── ncert/
-│ ├── biology/
-│ ├── chemistry/
-│ ├── computer Science/
-│ ├── electronics/
-│ ├── mathematics/
-│ ├── physics/
-│ └── pyq/
+│     ├── biology/
+│     ├── chemistry/
+│     ├── computer Science/
+│     ├── electronics/
+│     ├── mathematics/
+│     ├── physics/
+│     └── pyq/
 ├── chroma_db/ # 🗄️ Vector database (auto-created)
 ├── kcet_progress.sqlite # Student database
 ├── requirements.txt # Python dependencies
@@ -322,7 +322,6 @@ TOP_K = 5
 
 Your progress is saved in `kcet_progress.sqlite`:
 
-- Total questions asked
 - Chat history
 - Subject preferences
 
@@ -377,21 +376,14 @@ rm -rf chroma_db/
 streamlit run app.py
 ```
 
-### Docker can't connect to Ollama?
-```bash
-# Add host.docker.internal to /etc/docker/daemon.json
-echo '{"hosts":["tcp://host.docker.internal:11434"]}' | sudo tee /etc/docker/daemon.json
-
-# Restart Docker
-sudo systemctl restart docker
-```
-
 ## License
 
 MIT License
+
 ## Author
 Tharun K
-AI Developer / Red Teamer 📍 Bengaluru, Karnataka, India
+AI Developer / Red Teamer 
+📍 Bengaluru, Karnataka, India
 🔗 GitHub: @chandutharun
 
 
