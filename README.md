@@ -386,9 +386,7 @@ Tharun K
 
 AI Developer / Red Teamer 
 
-📍 Bengaluru, Karnataka, India
-
-🔗 GitHub: @chandutharun
+📍 Bengaluru, Karnataka, India | 🔗 GitHub: @chandutharun
 
 
 🎓 **Happy KCET Preparation!**
