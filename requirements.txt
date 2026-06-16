@@ -1,0 +1,33 @@
+# Streamlit UI
+streamlit==1.32.0
+
+# LangChain Framework
+langchain==0.1.17
+langchain-community==0.0.37
+langchain-core==0.1.44
+
+# PDF Processing
+PyMuPDF==1.24.0
+pypdf==4.2.0
+
+# Embeddings (Hugging Face - ONE TIME download)
+sentence-transformers==2.7.0
+transformers==4.40.0
+
+# Vector Database
+chromadb==0.4.24
+
+# SQLite Database
+sqlalchemy==2.0.29
+
+# Utilities
+python-dotenv==1.0.1
+requests==2.31.0
+numpy==1.26.4
+pandas==2.2.2
+
+# Ollama Integration
+ollama==0.1.7
+
+# Text Processing
+tiktoken==0.5.2

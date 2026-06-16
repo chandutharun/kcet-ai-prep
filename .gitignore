@@ -1,0 +1,7 @@
+venv/
+chroma_db/
+*.sqlite
+*.db
+pdfs/
+.env
+__pycache__/
