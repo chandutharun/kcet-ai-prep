@@ -13,32 +13,55 @@ An offline RAG-based AI assistant for KCET exam preparation using NCERT textbook
 
 ## Your PDF Folder Structure
 ```text
-Your PDFs are organized like this:
 kcet_ai_prep/
-├── pdfs/
-│ └── ncert/
-│ ├── biology/
-│ │ ├── NCERT-Class-12-Biology.pdf
-│ │ └── ...
-│ ├── chemistry/
-│ │ ├── NCERT-Class-12-Chemistry.pdf
-│ │ └── ...
-│ ├── computer Science/
-│ │ ├── NCERT-Class-11-ComputerScience.pdf
-│ │ └── ...
-│ ├── electronics/
-│ │ ├── NCERT-Class-12-Electronics.pdf
-│ │ └── ...
-│ ├── mathematics/
-│ │ ├── NCERT-Class-12-Mathematics.pdf
-│ │ └── ...
-│ ├── physics/
-│ │ ├── NCERT-Class-11-Physics-Part-1.pdf
-│ │ ├── NCERT-Class-11-Physics-Part-2.pdf
-│ │ └── ...
-│ └── pyq/
-│ ├── kcet-2024-physics.pdf
-│ └── ...
+└── pdfs/
+    └── ncert/
+        ├── biology/
+        │   ├── NCERT-Class-11-Biology.pdf
+        │   └── NCERT-Class-12-Biology.pdf
+        │
+        ├── chemistry/
+        │   ├── NCERT-Class-11-Chemistry.pdf
+        │   ├── NCERT-Class-12-Chemistry.pdf
+        │   └── ...
+        │
+        ├── computer Science/
+        │   ├── NCERT-Class-11-ComputerScience.pdf
+        │   ├── NCERT-Class-12-ComputerScience.pdf
+        │   └── ...
+        │
+        ├── electronics/
+        │   ├── 100-2 PUC Electronics TB.pdf
+        │   └── ...
+        │
+        ├── mathematics/
+        │   ├── ncert-books-for-class-11-mathematics.pdf
+        │   ├── ncert-books-for-class-12-mathematics.pdf
+        │   └── ...
+        │
+        ├── physics/
+        │   ├── NCERT-Class-11-Physics-Part-1.pdf
+        │   ├── NCERT-Class-11-Physics-Part-2.pdf
+        │   ├── NCERT-Class-12-Physics-Part-1.pdf
+        │   ├── NCERT-Class-12-Physics-Part-2.pdf
+        │   └── ...
+        │
+        └── pyq/
+            ├── KCET_2022_Biology_Question_Paper_PDF_Jun_16_2022_Code_A1__793f94c1ec636c5ce3bf9bbe42e5c707.pdf
+            ├── KCET_2023_Biology_Question_Paper_PDF_May_20_2023_Code_B4__48100c55decda24b0cafe57cea9b643c.pdf
+            ├── KCET_2024_Biology_Question_Paper_with_Asnwer_Key_PDF_c66dbb165063a53111e99c7d4b0b61ac.pdf
+            ├── KCET_2024_Chemistry_Question_Paper_with_Asnwer_Key_PDF_4666e5fdb11ae14cf7d3f0a7df32b370.pdf
+            ├── KCET_2024_Mathematics_Question_Paper_with_Asnwer_Key_PDF_d4137caf9cc70913cdfd17dd01062d59.pdf
+            ├── KCET_2024_Physics_Question_Paper_with_Asnwer_Key_PDF_32501f45f81083b3cde09842ea40867c.pdf
+            ├── Karnataka CET Physics Question Paper 2013.pdf
+            ├── kcet-2025-biology-answer-key-17-04-2025.pdf
+            ├── kcet-2025-chemistry-answer-key-16-04-2025.pdf
+            ├── kcet-2025-maths-answer-key-17-04-2025.pdf
+            ├── kcet-2025-physics-answer-key-16-04-2025.pdf
+            ├── kcet-biology-question-paper-2024-2406.pdf
+            ├── kcet-chemistry-question-paper-2024-2407.pdf
+            ├── kcet-mathematics-question-paper-2024-2408.pdf
+            └── kcet-physics-question-paper-2024-2409.pdf
 
 ```
 
@@ -245,6 +268,7 @@ streamlit run app.py
 ---
 
 ## Project Structure
+```text
 kcet_ai_prep/
 ├── app.py # Streamlit UI
 ├── src/
@@ -271,7 +295,7 @@ kcet_ai_prep/
 ├── README.md # This file
 └── venv/ # Python virtual environment
 
-
+```
 
 ## Configuration
 
